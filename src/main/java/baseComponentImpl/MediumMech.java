@@ -1,23 +1,17 @@
 package baseComponentImpl;
 
-import java.util.List;
-import java.util.Map;
-
 import com.google.inject.Inject;
-
 import baseComponents.Arm;
 import baseComponents.CenterTorso;
 import baseComponents.Head;
 import baseComponents.Leg;
 import baseComponents.Mech;
 import baseComponents.Torso;
-import enums.BodyComponents;
-import enums.HardPoint;
 import enums.MechClass;
 
-public abstract class MediumMech implements Mech{
 
-	private static Map<BodyComponents, List<HardPoint>> hardPointMap;
+public class MediumMech implements Mech{
+
 	private String name;
 	private Leg rightLeg;
 	private Leg leftLeg;
@@ -45,7 +39,6 @@ public abstract class MediumMech implements Mech{
 		this.rightArm = rightArm;
 		this.leftArm = leftArm;
 	}
-	
 	@Override
 	public String getName() {
 		return name;

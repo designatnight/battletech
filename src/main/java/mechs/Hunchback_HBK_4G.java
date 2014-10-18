@@ -5,17 +5,17 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.google.inject.Inject;
-
-import enums.BodyComponents;
-import enums.HardPoint;
-import enums.MechClass;
-import baseComponentImpl.MediumMech;
 import baseComponents.Arm;
 import baseComponents.CenterTorso;
 import baseComponents.Head;
 import baseComponents.Leg;
 import baseComponents.Torso;
+
+import com.google.inject.Inject;
+
+import enums.BodyComponents;
+import enums.HardPoint;
+import enums.MechClass;
 
 
 public class Hunchback_HBK_4G {
