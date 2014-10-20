@@ -15,7 +15,7 @@ public enum MechClass {
 	private int internalArmorHead;
 	 
 	
-	private MechClass (int maxWeight, int internalArmorArm, int internalArmorTorso, int internalArmorCenter, int internalArmorLeg, int internalArmorHead){
+	private MechClass (int maxWeight, int internalArmorArm, int internalArmorTorso, int internalArmorLeg, int internalArmorCenter, int internalArmorHead){
 		this.maxWeight = maxWeight;
 		this.internalArmorArm = internalArmorArm;
 		this.internalArmorTorso = internalArmorTorso;
@@ -33,15 +33,19 @@ public enum MechClass {
 	public Integer getInternalArmorArm() {
 		return internalArmorArm;
 	}
+	
 	public Integer getInternalArmorTorso() {
 		return internalArmorTorso;
 	}
+	
 	public Integer getInternalArmorCenter() {
 		return internalArmorCenter;
 	}
+	
 	public Integer getInternalArmorLeg() {
 		return internalArmorLeg;
 	}
+	
 	public Integer getInternalArmorHead() {
 		return internalArmorHead;
 	}

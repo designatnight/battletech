@@ -1,28 +1,35 @@
 package components;
 
-import enums.BodyComponents;
+import enums.ComponentType;
 import enums.MechClass;
 import baseComponents.Armor;
 import baseComponents.InternalStructure;
 
-public abstract class InternalArmor implements Armor, InternalStructure{
+public class InternalArmor implements Armor, InternalStructure{
 
 	public Integer armor;
 	
-	public InternalArmor(MechClass mechClass, BodyComponents bodyComponents ){
-		
+	public InternalArmor(Integer internalArmor){
+		this.armor = internalArmor;
 	}
 	
 	@Override
 	public Integer getArmorPoints() {
-		// TODO Auto-generated method stub
 		return armor;
 	}
 
 	@Override
-	public Integer setArmorPoints() {
+	public Armor getArmor() {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public void internalStructureDestroyed() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 
 }

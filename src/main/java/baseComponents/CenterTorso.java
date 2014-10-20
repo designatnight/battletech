@@ -10,7 +10,7 @@ public interface CenterTorso {
 
 	public Engine getEngine();
 	public Gyro getGyro();
-	public List<CriticalSlot> getCriticalSlots();
+	
 	
 	public void setCriticalSlots(List<CriticalSlot> criticalSlots);
 	

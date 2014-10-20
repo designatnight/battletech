@@ -13,14 +13,14 @@ import baseComponents.Torso;
 
 import com.google.inject.Inject;
 
-import enums.BodyComponents;
-import enums.HardPoint;
+import enums.ComponentType;
+import enums.HardPointType;
 import enums.MechClass;
 
 
 public class Hunchback_HBK_4G {
 	
-	public static Map<BodyComponents, List<HardPoint>> hardPointMap;
+	public static Map<ComponentType, List<HardPointType>> hardPointMap;
 	
 	@Inject
 	public Hunchback_HBK_4G(Head head, CenterTorso centerTorso,	Torso leftTorso, Torso rightTorso, Arm leftArm, Arm rightArm, Leg leftLeg, Leg rightLeg) {
@@ -28,12 +28,12 @@ public class Hunchback_HBK_4G {
 		
 	}
 	
-	public static Map<BodyComponents, List<HardPoint>> getHardPointMap(){
+	public static Map<ComponentType, List<HardPointType>> getHardPointMap(){
 		hardPointMap = new HashMap<>();
-		hardPointMap.put(BodyComponents.HEAD, Arrays.asList(HardPoint.LASER));
-		hardPointMap.put(BodyComponents.RIGHT_TORSO, Arrays.asList(HardPoint.BALISTIC));
-		hardPointMap.put(BodyComponents.RIGHT_ARM, Arrays.asList(HardPoint.LASER));
-		hardPointMap.put(BodyComponents.LEFT_ARM, Arrays.asList(HardPoint.LASER));
+		hardPointMap.put(ComponentType.HEAD, Arrays.asList(HardPointType.LASER));
+		hardPointMap.put(ComponentType.RIGHT_TORSO, Arrays.asList(HardPointType.BALISTIC));
+		hardPointMap.put(ComponentType.RIGHT_ARM, Arrays.asList(HardPointType.LASER));
+		hardPointMap.put(ComponentType.LEFT_ARM, Arrays.asList(HardPointType.LASER));
 		return hardPointMap;
 	}
 	
