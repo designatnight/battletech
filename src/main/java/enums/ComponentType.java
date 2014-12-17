@@ -2,23 +2,24 @@ package enums;
 
 public enum ComponentType {
 
-	HEAD(10),
-	CENTER_TORSO(10),
-	LEFT_TORSO(10),
-	RIGHT_TORSO(10),
-	LEFT_LEG(10),
-	RIGHT_LEG(10),
-	RIGHT_ARM(10),
-	LEFT_ARM(10);
+	HEAD(ChassisComponent.HEAD),
+	CENTER_TORSO(ChassisComponent.CENTER_TORSO),
+	LEFT_TORSO(ChassisComponent.TORSO),
+	RIGHT_TORSO(ChassisComponent.TORSO),
+	LEFT_LEG(ChassisComponent.LEG),
+	RIGHT_LEG(ChassisComponent.LEG),
+	RIGHT_ARM( ChassisComponent.ARM),
+	LEFT_ARM(ChassisComponent.ARM);
 	
-	private final Integer critSlotUsage;
-	
-	private ComponentType(Integer critSlotUsage){
-		this.critSlotUsage = critSlotUsage;
-	}
 
-	public Integer getCritSlotUsage() {
-		return critSlotUsage;
+	private final ChassisComponent chassieComponentType;
+	
+	private ComponentType(ChassisComponent chassieComponent){
+		this.chassieComponentType = chassieComponent;
+	}
+	
+	public ChassisComponent getChassieComponentType(){
+		return chassieComponentType;
 	}
 }
  

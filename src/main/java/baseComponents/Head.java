@@ -5,16 +5,32 @@ package baseComponents;
 import java.util.List;
 
 import components.CockPit;
-import components.CriticalSlot;
+import components.InternalArmor;
 import components.LifeSupport;
 import components.Sensor;
+import enums.ChassisComponent;
+import enums.HardPointType;
 
-public interface Head {
+public class Head extends ChassisPart{
 	
-	public Sensor getSensor();
-	public LifeSupport getLifeSupport();
-	public CockPit getCockpit();
-	public CriticalSlot getSlot();
-	public void setCriticalSlot(List<CriticalSlot> criticalSlots);
+	public Sensor sensor;
+	public LifeSupport lifeSupport;
+	public CockPit cockPit;
 	
+	public Head(List<HardPointType> hardPoints, InternalArmor internalArmor) {
+		super(hardPoints, internalArmor, ChassisComponent.HEAD);
+		sensor = new Sensor();
+		lifeSupport = new LifeSupport();		
+	}
+	
+	public Sensor getSensor(){
+		return sensor;
+	}
+	public LifeSupport getLifeSupport(){
+		return lifeSupport;
+	}
+	public CockPit getCockpit(){
+		return cockPit;
+	}
+		
 }

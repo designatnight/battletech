@@ -7,43 +7,43 @@ import org.apache.commons.lang3.ObjectUtils;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
 
-import enums.ComponentType;
+import enums.ChassisComponent;
 import enums.MechClass;
 
 @Singleton
 public class ArmorService {
 
-	private Map<ComponentTypeArmorKey,Integer> internalArmor;
+	private Map<ChassisComponentArmorKey,Integer> internalArmor;
 	
 	@Inject
-	public ArmorService(Map<ComponentTypeArmorKey, Integer> interalArmorMap){
+	public ArmorService(Map<ChassisComponentArmorKey, Integer> interalArmorMap){
 		internalArmor = interalArmorMap;
 	}
 	
-	private ComponentTypeArmorKey createChassisDie(MechClass mechClass, ComponentType componentType){
-		return new ComponentTypeArmorKey(mechClass, componentType);
+	private ChassisComponentArmorKey createChassisDie(MechClass mechClass, ChassisComponent chassisComponent){
+		return new ChassisComponentArmorKey(mechClass, chassisComponent);
 	}
 	
-	public Integer getInternalArmorforTemplate(MechClass mechClass, ComponentType componentType){
-		return internalArmor.get(createChassisDie(mechClass, componentType));
+	public Integer getInternalArmorforTemplate(MechClass mechClass, ChassisComponent chassisComponent){
+		return internalArmor.get(createChassisDie(mechClass, chassisComponent));
 	}
 	
 	
-	public static class ComponentTypeArmorKey{
+	public static class ChassisComponentArmorKey{
 		
 		private MechClass mechClass;
-		private ComponentType componentType;
+		private ChassisComponent chassisComponent;
 		
 		
-		public ComponentTypeArmorKey (MechClass mechClass, ComponentType componentType){
+		public ChassisComponentArmorKey (MechClass mechClass, ChassisComponent chassisComponent){
 			
 			this.mechClass = mechClass;
-			this.componentType = componentType;
+			this.chassisComponent = chassisComponent;
 		}
 		
 		@Override
 		public int hashCode(){
-			return ObjectUtils.hashCodeMulti(mechClass, componentType);
+			return ObjectUtils.hashCodeMulti(mechClass, chassisComponent);
 		}
 		
 		@Override
@@ -51,16 +51,16 @@ public class ArmorService {
 			if(!this.getClass().isAssignableFrom(object.getClass())){
 				return false;
 			}
-			ComponentTypeArmorKey die = (ComponentTypeArmorKey)object;
-			return this.getMechClass() == die.getMechClass() && this.getComponentType() == die.getComponentType();
+			ChassisComponentArmorKey die = (ChassisComponentArmorKey)object;
+			return this.getMechClass() == die.getMechClass() && this.getChassisComponent() == die.getChassisComponent();
 		}
 		
 		public MechClass getMechClass(){
 			return mechClass;
 		}
 		
-		public ComponentType getComponentType(){
-			return componentType;
+		public ChassisComponent getChassisComponent(){
+			return chassisComponent;
 		}
 	}
 	

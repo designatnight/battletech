@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: factory.MechFactoryUnitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
+CanBuildHunchback4GBasicBody(factory.MechFactoryUnitTest)  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.NullPointerException
+	at assemblyLIne.ChassisAssemblyLine.buildChassisPart(ChassisAssemblyLine.java:52)
+	at assemblyLIne.ChassisAssemblyLine.assemble(ChassisAssemblyLine.java:35)
+	at factory.MechFactory.assemble(MechFactory.java:33)
+	at factory.MechFactoryUnitTest.CanBuildHunchback4GBasicBody(MechFactoryUnitTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+

@@ -1,5 +1,6 @@
 package baseComponents;
 
+import java.util.List;
 import java.util.Map;
 
 import enums.ComponentType;
@@ -12,11 +13,10 @@ public class Mech {
 	private String model;
 	private Integer maxWeight;
 	private MechClass mechClass;
+	private Map<ComponentType, ChassisPart> mechChassisMap;
 	
-	private Map<ComponentType, BodyPart> bodyMap;
-	
-	public Mech(Map<ComponentType, BodyPart> bodyMap){
-		this.bodyMap = bodyMap;
+	public Mech(Map<ComponentType, ChassisPart> mechChassisMap){
+		this.mechChassisMap = mechChassisMap;
 	}
 	public String getName() {
 		return name;
@@ -38,29 +38,29 @@ public class Mech {
 	public MechClass getMechClass() {
 		return null;
 	} 
-	public BodyPart getHead() {
-		return bodyMap.get(ComponentType.HEAD);
+	public ChassisPart getHead() {
+		return mechChassisMap.get(ComponentType.HEAD);
 	} 
-	public BodyPart getCenterTorso() {
-		return bodyMap.get(ComponentType.CENTER_TORSO);
+	public ChassisPart getCenterTorso() {
+		return mechChassisMap.get(ComponentType.CENTER_TORSO);
 	}
-	public BodyPart getLeftTorso() {
-		return bodyMap.get(ComponentType.LEFT_TORSO);
+	public ChassisPart getLeftTorso() {
+		return mechChassisMap.get(ComponentType.LEFT_TORSO);
 	}
-	public BodyPart getRightTorso() {
-		return bodyMap.get(ComponentType.RIGHT_TORSO);
+	public ChassisPart getRightTorso() {
+		return mechChassisMap.get(ComponentType.RIGHT_TORSO);
 	} 
-	public BodyPart getLeftLeg() {
-		return bodyMap.get(ComponentType.LEFT_LEG);
+	public ChassisPart getLeftLeg() {
+		return mechChassisMap.get(ComponentType.LEFT_LEG);
 	}
-	public BodyPart getRightLeg() {
-		return bodyMap.get(ComponentType.RIGHT_LEG);
+	public ChassisPart getRightLeg() {
+		return mechChassisMap.get(ComponentType.RIGHT_LEG);
 	}
-	public BodyPart getLeftArm() {
-		return bodyMap.get(ComponentType.LEFT_ARM);
+	public ChassisPart getLeftArm() {
+		return mechChassisMap.get(ComponentType.LEFT_ARM);
 	}
-	public BodyPart getRightArm() {
-		return bodyMap.get(ComponentType.RIGHT_ARM);
+	public ChassisPart getRightArm() {
+		return mechChassisMap.get(ComponentType.RIGHT_ARM);
 	}
 	
 	

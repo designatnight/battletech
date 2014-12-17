@@ -37,8 +37,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.clinkworks</groupId>
-			<artifactId>neptical</artifactId>
+			<groupId>com.clinkworks.neptical</groupId>
+			<artifactId>data</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>

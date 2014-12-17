@@ -7,17 +7,17 @@ import org.junit.Test;
 
 import enums.ComponentType;
 import enums.HardPointType;
-import baseComponents.BodyPart;
+import baseComponents.ChassisPart;
 import baseComponents.Component;
 
 public class GenericHardPointUnitTest {
 	
 	private GenericHardPoint genericHardPoint;
-	private BodyPart bodyPart;
+	private ChassisPart bodyPart;
 	
 	@Before
 	public void init(){
-		bodyPart = new BodyPart(ComponentType.CENTER_TORSO, new InternalArmor(15), 10);
+		bodyPart = new ChassisPart(ComponentType.CENTER_TORSO, new InternalArmor(15), 10);
 		genericHardPoint = bodyPart.getGenericHardPoint();
 	}
 	

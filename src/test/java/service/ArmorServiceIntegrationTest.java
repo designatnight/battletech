@@ -10,7 +10,7 @@ import com.clinkworks.neptical.junit.runners.NepticalJUnit4Runner;
 import com.clinkworks.neptical.junit.runners.NepticalJUnit4Runner.NepticalConfiguration;
 import com.google.inject.Inject;
 
-import enums.ComponentType;
+import enums.ChassisComponent;
 import enums.MechClass;
 
 @RunWith(NepticalJUnit4Runner.class)
@@ -24,7 +24,13 @@ public class ArmorServiceIntegrationTest {
 	@Test
 	public void correctValueForInternalArmerSelected() {
 		
-		assertEquals(new Integer(16), armorService.getInternalArmorforTemplate(MechClass.MEDIUM, ComponentType.CENTER_TORSO));
+		assertEquals(new Integer(16), armorService.getInternalArmorforTemplate(MechClass.MEDIUM, ChassisComponent.CENTER_TORSO));
+		assertEquals(new Integer(3), armorService.getInternalArmorforTemplate(MechClass.MEDIUM, ChassisComponent.HEAD));
+		assertEquals(new Integer(6), armorService.getInternalArmorforTemplate(MechClass.MEDIUM, ChassisComponent.ARM));
+		assertEquals(new Integer(12), armorService.getInternalArmorforTemplate(MechClass.MEDIUM, ChassisComponent.LEG));
+		assertEquals(new Integer(12), armorService.getInternalArmorforTemplate(MechClass.MEDIUM, ChassisComponent.TORSO));
+		
+		
 		
 	}
 

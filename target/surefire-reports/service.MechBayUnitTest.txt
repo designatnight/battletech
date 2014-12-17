@@ -1,0 +1,194 @@
+-------------------------------------------------------------------------------
+Test set: service.MechBayUnitTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+canAssembleCenterTorso(service.MechBayUnitTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	The import enums.ItemType cannot be resolved
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+
+	at service.MechBayUnitTest.<init>(MechBayUnitTest.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+canAssembleMediumHead(service.MechBayUnitTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	The import enums.ItemType cannot be resolved
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+
+	at service.MechBayUnitTest.<init>(MechBayUnitTest.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+canAssembleMediumRightArm(service.MechBayUnitTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	The import enums.ItemType cannot be resolved
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+
+	at service.MechBayUnitTest.<init>(MechBayUnitTest.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+canAssembleMediumLeftLeg(service.MechBayUnitTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	The import enums.ItemType cannot be resolved
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+
+	at service.MechBayUnitTest.<init>(MechBayUnitTest.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+canAssembleMech(service.MechBayUnitTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	The import enums.ItemType cannot be resolved
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	The method getInternalArmorforTemplate(MechClass, ChassisComponent) in the type ArmorService is not applicable for the arguments (MechClass, ComponentType)
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+	ItemType cannot be resolved to a variable
+
+	at service.MechBayUnitTest.<init>(MechBayUnitTest.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+

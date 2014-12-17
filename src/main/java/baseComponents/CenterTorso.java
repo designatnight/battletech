@@ -5,14 +5,25 @@ import java.util.List;
 import components.CriticalSlot;
 import components.Engine;
 import components.Gyro;
+import components.InternalArmor;
+import enums.ChassisComponent;
+import enums.HardPointType;
 
-public interface CenterTorso {
+public class CenterTorso extends ChassisPart {
 
-	public Engine getEngine();
-	public Gyro getGyro();
+	public Engine engine;
+	public Gyro gyro;
 	
+	public CenterTorso(List<HardPointType> hardPoints, InternalArmor internalArmor) {
+		super(hardPoints, internalArmor, ChassisComponent.CENTER_TORSO);
+	}
 	
-	public void setCriticalSlots(List<CriticalSlot> criticalSlots);
-	
+
+	public Engine getEngine(){
+		return engine;
+	}
+	public Gyro getGyro(){
+		return gyro;
+	}
 	
 }

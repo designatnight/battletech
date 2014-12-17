@@ -2,11 +2,13 @@ package baseComponents;
 
 import java.util.List;
 
-import components.CriticalSlot;
+import components.InternalArmor;
+import enums.ChassisComponent;
+import enums.HardPointType;
 
-public interface Leg {
+public class Leg extends ChassisPart {
 
-	public List<CriticalSlot> getCriticalSlots();
-	
-	public void setCriticalSlots(List<CriticalSlot> criticalSlots);
+		public Leg(List<HardPointType> hardPoints, InternalArmor internalArmor) {
+		super(hardPoints, internalArmor, ChassisComponent.LEG);
+	}
 }
